@@ -30,4 +30,4 @@ EXPOSE 8080
 # START COMMAND
 # Format: ["uvicorn", "module_name:app_variable", ...]
 # Since your file is shopify.py and the app variable is 'app', we use "shopify:app"
-CMD ["uvicorn", "shopify:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8080"]
